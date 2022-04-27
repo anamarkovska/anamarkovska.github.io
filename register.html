@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style>
+        #nav,#dropdown_menu{
+            background: #198754;
+        }
+        #dropdown_menu a:hover{
+            background: mediumseagreen;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar navbar-expand shadow" id="nav">
+    <h1 class="navbar-brand ms-4 my-4 text-white" style="font-family: 'Bookman Old Style';font-size: 30px ">Learning Microsoft Excel</h1>
+    <div class="ms-auto">
+        <ul class="nav nav-tabs">
+            <li class="nav-item list-inline-item">
+                <a class="nav-link text-white text-uppercase" href="home.html">Home</a></li>
+            <li class="nav-item dropdown list-inline-item">
+                <a class="nav-link text-white dropdown-toggle text-uppercase" data-bs-toggle="dropdown">Free Training</a>
+                <ul class="dropdown-menu" id="dropdown_menu">
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="video_tutorials.html">Video Tutorials</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="examples.html">Excel Functions</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="homework.html">Homework</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="learn_more.html">Learn More</a></li>
+                </ul>
+            </li>
+            <li class="nav-item list-inline-item"><a class="nav-link text-white text-uppercase" href="forum.html">Forum</a></li>
+            <li class="nav-item list-inline-item"><a class="nav-link text-white text-uppercase" href="certificate.html">Certificate</a></li>
+            <form class="d-flex">
+                <input class="form-control" type="search" placeholder="Search...">
+                <button class="btn btn-primary btn-sm ">
+                    <span class="glyphicon glyphicon-search"></span></button>
+            </form>
+            <a class="btn btn-block btn-success me-4 text-uppercase btn-sm ms-3" href="register.html">Sign Up</a>
+        </ul>
+    </div>
+</div>
+<hr class="m-25 ax-auto">
+
+<div class="container pt-4 w-50">
+    <div class="container pt-4 w-75 mb-3" style="background: #c5d7f2">
+        <h1 class="text-center mb-3" style="font-size: 30px">Register New Account</h1>
+        <form>
+            <div class="progress mt-3 mb-3" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 20%"></div>
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%"></div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 20%"></div>
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%"></div>
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 20%"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input id="first_name" class="form-control" placeholder="First Name">
+                </div>
+                <div class="col">
+                    <input id="last_name" class="form-control" placeholder="Last Name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="mt-3 col">
+                    <input id="display_name" class="form-control" placeholder="Display Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-3 col">
+                    <input id="email" class="form-control" type="email" placeholder="Email Address">
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-3">
+                    <label class="form-check-label ms-1 mt-3">Gender:</label>
+                </div>
+
+                <div class="col">
+                <div class="row">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Female
+                        </label>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col">
+                    <input id="pass" class="form-control" type="password" placeholder="Password">
+                </div>
+                <div class="col">
+                    <input id="confirm_pass" class="form-control" type="password" placeholder="Confirm Password">
+                </div>
+            </div>
+
+
+            <div class="form-check mt-3">
+                <input class="form-check-input" type="checkbox" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    I agree with terms and conditions
+                </label>
+
+            </div>
+
+            <div class="row mt-3">
+                <div class="col" style="font-size: 13px">
+                    <div >By clicking
+                        <span class="badge bg-primary">Register</span>
+                        You agree to the <a class="list-inline-item text-decoration-none">Terms and Conditions</a>
+                        set out by this site, Including our Cookie Use.
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col w-100">
+                    <button id="register" class="btn btn-primary w-100">Register</button>
+                </div>
+            </div>
+
+            <div class="progress mt-3 mb-3" style="height: 5px;">
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 20%"></div>
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%"></div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 20%"></div>
+                <div class="progress-bar bg-secondary" role="progressbar" style="width: 20%"></div>
+                <div class="progress-bar bg-primary" role="progressbar" style="width: 20%"></div>
+            </div>
+
+            <div class="alert alert-success alert-dismissible fade show mt-3 " id="login" role="alert">
+                <h4 class="alert-heading">Already have an account?</h4>
+                <hr>
+                <p class="mb-0">Login by clicking <a href="login.html" class="alert-link">here</a>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>

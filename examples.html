@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Examples</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style>
+    #nav,#dropdown_menu{
+    background: #198754;
+    }
+    .table td, .table th{
+    vertical-align: middle;
+    }
+    #dropdown_menu a:hover{
+        background: mediumseagreen;
+    }
+    </style>
+</head>
+<body>
+<div class="navbar navbar-expand shadow" id="nav">
+    <h1 class="navbar-brand ms-4 my-4 text-white" style="font-family: 'Bookman Old Style';font-size: 30px ">Learning Microsoft Excel</h1>
+    <div class="ms-auto">
+        <ul class="nav nav-tabs">
+            <li class="nav-item list-inline-item">
+                <a class="nav-link text-white text-uppercase" href="home.html">Home</a></li>
+            <li class="nav-item dropdown list-inline-item">
+                <a class="nav-link text-white dropdown-toggle text-uppercase" data-bs-toggle="dropdown">Free Training</a>
+                <ul class="dropdown-menu" id="dropdown_menu">
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="video_tutorials.html">Video Tutorials</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="examples.html">Excel Functions</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="homework.html">Homework</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="learn_more.html">Learn More</a></li>
+                </ul>
+            </li>
+            <li class="nav-item list-inline-item"><a class="nav-link text-white text-uppercase" href="forum.html">Forum</a></li>
+            <li class="nav-item list-inline-item"><a class="nav-link text-white text-uppercase" href="certificate.html">Certificate</a></li>
+            <form class="d-flex">
+                <input class="form-control" type="search" placeholder="Search...">
+                <button class="btn btn-primary btn-sm ">
+                    <span class="glyphicon glyphicon-search"></span></button>
+            </form>
+            <a class="btn btn-block btn-success me-4 text-uppercase btn-sm ms-3" href="register.html">Sign Up</a>
+        </ul>
+    </div>
+</div>
+<hr class="m-25 ax-auto">
+
+
+<div class="container mt-3">
+    <div class="row">
+
+        <div class="col mt-4 me-5">
+
+            <div class="row">
+                <h1 class="mb-4">MICROSOFT EXCEL FUNCTIONS</h1>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="alert alert-info alert-dismissible fade show mt-3 ms-3" role="alert">
+                        <h4 class="alert-heading text-center">Over 100+ Excel Functions</h4>
+                        <hr>
+                        <p class="mb-0 text-center">Learn Microsoft Excel functions and do some real life examples.
+                        <p class="mb-0 text-center"><small>Learn more about getting homework by clicking </small><a href="homework.html" class="alert-link">here</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="table-responsive mt-3">
+                    <table class="table table-secondary table-striped table-hover table-bordered">
+                        <thead>
+                        <tr>
+                            <th scope="col" class="text-uppercase">Excel Function</th>
+                            <th scope="col" class="text-uppercase">Description</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td >Excel DATE Function</td>
+                                <td>Excel DATE function can be used when you want to get the date value using the year, month and, day values as the input arguments. It returns a serial number that represents a specific date in Excel.</td>
+                            </tr>
+                            <tr>
+                                <td>Excel DATEVALUE Function</td>
+                                <td>Excel DATEVALUE function is best suited for situations when a date is stored as text. This function converts the date from text format to a serial number that Excel recognizes as a date.</td>
+                            </tr>
+                        <tr>
+                            <td>Excel DAY Function</td>
+                            <td>Excel DAY function can be used when you want to get the day value (ranging between 1 to 31) from a specified date. It returns a value between 0 and 31 depending on the date used as the input.</td>
+                        </tr>
+                        <tr>
+                            <td>Excel HOUR Function</td>
+                            <td>Excel HOUR function can be used when you want to get the HOUR integer value from a specified time value. It returns a value between 0 (12:00 A.M.) and 23 (11:00 P.M.) depending on the time value used as the input</td>
+                        </tr>
+                        <tr>
+                            <td>Excel MINUTE Function</td>
+                            <td>Excel MINUTE function can be used when you want to get the MINUTE integer value from a specified time value. It returns a value between 0 and 59 depending on the time value used as the input.</td>
+                        </tr>
+                        <tr>
+                           <td>Excel NETWORKDAYS Function</td>
+                            <td>Excel NETWORKDAYS function can be used when you want to get the number of working days between two given dates. It does not count the weekends between the specified dates (by default the weekend is Saturday and Sunday). It can also exclude any specified holidays.</td>
+                        </tr>
+                        <tr>
+                            <td>Excel NETWORKDAYS.INTL Function</td>
+                            <td>Excel NETWORKDAYS.INTL function can be used when you want to get the number of working days between two given dates. It does not count the weekends and holidays, both of which can be specified by the user. It also enables you to specify the weekend (for example, you can specify Friday and Saturday as the weekend, or only Sunday as the weekend).</td>
+                        </tr>
+                        <tr>
+                            <td>Excel NOW Function</td>
+                            <td>Excel NOW function can be used to get the current date and time value.</td>
+                        </tr>
+                        <tr>
+                            <td>Excel SECOND Function</td>
+                            <td>Excel SECOND function can be used want to get the integer value of the seconds from a specified time value. It returns a value between 0 and 59 depending on the time value used as the input.</td>
+                        </tr>
+                        <tr>
+                            <td>Excel TODAY Function</td>
+                            <td>	Excel TODAY function can be used to get the current date. It returns a serial number that represents the current date.</td>
+                        </tr>
+                        <tr>
+                            <td>Excel WEEKDAY Function</td>
+                            <td>Excel WEEKDAY function can be used to get the day of the week as a number for the specified date. It returns a number between 1 and 7 that represents the corresponding day of the week.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+            </div>
+            </div>
+            <div class="row">
+
+            </div>
+
+            <div class="row">
+
+            </div>
+
+            <div class="row">
+
+            </div>
+
+            <div class="row">
+
+            </div>
+        </div>
+
+
+
+        <div class="col-3">
+            <div class="row">
+                <div class="card my-3 shadow text-center mt-3">
+                    <div class="card-header">
+                        <h4 class="bg-secondary text-white text-uppercase">For Beginners</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title">Best Tutorials</h1>
+                        <ul class="list-unstyled my-3">
+                            <li><a class="nav-link" href="#">Best Tutorial No.1</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.2</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.3</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.4</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.5</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.6</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.7</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.8</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.9</a></li>
+                            <li><a class="nav-link" href="#">Best Tutorial No.10</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="table">
+                    <p class="mb-0 text-center mt-5" style="font-size: 20px; font-family: 'Bookman Old Style';">If you're looking for <span>ADVANCED</span> training, we have courses, examples, tests and homeworks.
+                        <a href="learn_more.html">Learn More</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="table">
+                    <p class="mb-0 text-center mt-5" style="font-size: 20px; font-family: 'Bookman Old Style';">If you're looking for <span>EXAMPLES</span>, please click on this link.
+                        <a href="examples.html">Examples</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="table">
+                    <p class="mb-0 text-center mt-5" style="font-size: 20px; font-family: 'Bookman Old Style';">If you're looking for <span>EXCEL FUNCTIONS</span>, Check this one out.
+                        <a href="examples.html">Excel Functions and more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>

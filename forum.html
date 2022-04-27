@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style>
+        #nav,#dropdown_menu{
+            background: #198754;
+        }
+        #dropdown_menu a:hover{
+            background: mediumseagreen;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar navbar-expand shadow" id="nav">
+    <h1 class="navbar-brand ms-4 my-4 text-white" style="font-family: 'Bookman Old Style';font-size: 30px ">Learning Microsoft Excel</h1>
+    <div class="ms-auto">
+        <ul class="nav nav-tabs">
+            <li class="nav-item list-inline-item">
+                <a class="nav-link text-white text-uppercase" href="home.html">Home</a></li>
+            <li class="nav-item dropdown list-inline-item">
+                <a class="nav-link text-white dropdown-toggle text-uppercase" data-bs-toggle="dropdown">Free Training</a>
+                <ul class="dropdown-menu" id="dropdown_menu">
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="video_tutorials.html">Video Tutorials</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="examples.html">Excel Functions</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="homework.html">Homework</a></li>
+                    <li class="nav-item"><a class="dropdown-item text-white text-uppercase" href="learn_more.html">Learn More</a></li>
+                </ul>
+            </li>
+            <li class="nav-item list-inline-item"><a class="nav-link text-white text-uppercase" href="forum.html">Forum</a></li>
+            <li class="nav-item list-inline-item"><a class="nav-link text-white text-uppercase" href="certificate.html">Certificate</a></li>
+            <form class="d-flex">
+                <input class="form-control" type="search" placeholder="Search...">
+                <button class="btn btn-primary btn-sm ">
+                    <span class="glyphicon glyphicon-search"></span></button>
+            </form>
+            <a class="btn btn-block btn-success me-4 text-uppercase btn-sm ms-3" href="register.html">Sign Up</a>
+        </ul>
+    </div>
+</div>
+<hr class="m-25 ax-auto">
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row text-center mb-3">
+        <h1>FORUM</h1>
+        <div class="col-md-8 bg-light">
+            <div class="d-flex flex-column comment-section">
+                <div class="bg-light p-2">
+                    <div class="d-flex flex-row user-info">
+                        <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40">
+                        <div class="d-flex flex-column justify-content-start ml-2">
+                            <span class="d-block font-weight-bold name me-auto" style="font-weight: bold; color: #0a53be" >Tara Gerisen</span>
+                            <span class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                    </div>
+                    <div class="mt-2 bg-white">
+                        <p class="comment-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="d-flex flex-row fs-12">
+                        <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><button class="ml-1">Like</button></div>
+                        <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><button class="ml-1">Comment</button></div>
+                    </div>
+                </div>
+                <div class="bg-light p-2">
+                    <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                    <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Post comment</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 bg-light mt-5">
+            <div class="d-flex flex-column comment-section">
+                <div class="bg-light p-2">
+                    <div class="d-flex flex-row user-info">
+                        <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40">
+                        <div class="d-flex flex-column justify-content-start ml-2">
+                            <span class="d-block font-weight-bold name me-auto" style="font-weight: bold; color: #0a53be" >Tara Gerisen</span>
+                            <span class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                    </div>
+                    <div class="mt-2 bg-white">
+                        <p class="comment-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="d-flex flex-row fs-12">
+                        <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><button class="ml-1">Like</button></div>
+                        <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><button class="ml-1">Comment</button></div>
+                    </div>
+                </div>
+                <div class="bg-light p-2">
+                    <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                    <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Post comment</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 bg-light mt-5">
+            <div class="d-flex flex-column comment-section">
+                <div class="bg-light p-2">
+                    <div class="d-flex flex-row user-info">
+                        <img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40">
+                        <div class="d-flex flex-column justify-content-start ml-2">
+                            <span class="d-block font-weight-bold name me-auto" style="font-weight: bold; color: #0a53be" >Tara Gerisen</span>
+                            <span class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                    </div>
+                    <div class="mt-2 bg-white">
+                        <p class="comment-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <div class="d-flex flex-row fs-12">
+                        <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><button class="ml-1">Like</button></div>
+                        <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><button class="ml-1">Comment</button></div>
+                    </div>
+                </div>
+                <div class="bg-light p-2">
+                    <div class="d-flex flex-row align-items-start"><img class="rounded-circle" src="https://i.imgur.com/RpzrMR2.jpg" width="40"><textarea class="form-control ml-1 shadow-none textarea"></textarea></div>
+                    <div class="mt-2 text-right"><button class="btn btn-primary btn-sm shadow-none" type="button">Post comment</button><button class="btn btn-outline-primary btn-sm ml-1 shadow-none" type="button">Cancel</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="/js/bootstrap.bundle.js"></script>
+</body>
+</html>
